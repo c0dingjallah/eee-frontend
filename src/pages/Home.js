@@ -1,7 +1,42 @@
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 import { Link } from "react-router-dom";
 
 const Home = () => {
- 
+
+  const slideImages = [
+    {
+      url: 'img/slider/1.jpg',
+      caption: 'Save Up to 75% Off',
+      captiontwo: 'Tents & Canopies',
+      caption3: 'Best tents & Canopies On The Market.'
+    },
+    {
+      url: 'img/slider/2.jpg',
+      caption: 'Save Up to 75% Off',
+      captiontwo: 'Tents & Canopies',
+      caption3: 'Best tents & Canopies On The Market.'
+    },
+    {
+      url: 'img/slider/3.jpg',
+      caption: 'Save Up to 75% Off',
+      captiontwo: 'Tents & Canopies',
+      caption3: 'Best tents & Canopies On The Market.'
+    },
+    {
+      url: 'img/slider/4.jpg',
+      caption: 'Save Up to 75% Off',
+      captiontwo: 'Tents & Canopies',
+      caption3: 'Best tents & Canopies On The Market.'
+    },
+    {
+      url: 'img/slider/5.jpg',
+      caption: 'Save Up to 75% Off',
+      captiontwo: 'Tents & Canopies',
+      caption3: 'Best tents & Canopies On The Market.'
+    }
+  ];
+
   return (
     <>
     {/* wpf loader Two */}
@@ -23,11 +58,28 @@ const Home = () => {
   {/* / menu */}
   {/* Start slider */}
   <section id="aa-slider">
-    <div className="aa-slider-area">
-      <div id="sequence" className="seq">
-        <div className="seq-screen">
+     <div className="aa-slider-area" > 
+    <div className="seq-screen">
+    <div className="slide-container" >
+        <Slide autoplay={true}>
+         {slideImages.map((slideImage, index)=> (
+            <div className="each-slide" style={{height: 500}} key={index}>
+              <div style={{'backgroundImage': `url(${slideImage.url})`, height: 500}}>
+                <div className="none">
+                <span >{slideImage.caption}</span>                
+                <h2 style={{verticalAlign: 'middle'}} >{slideImage.captiontwo}</h2>                
+                <p style={{verticalAlign: 'middle'}} >{slideImage.caption3}</p>
+                <a  href="#">SHOP NOW</a>
+              </div>
+              </div>
+            </div>
+          ))} 
+        </Slide>
+      
+      {/* 
+        
           <ul className="seq-canvas">
-            {/* single slide item */}
+          
             <li>
               <div className="seq-model">
                 <img data-seq src="img/slider/1.jpg" alt="Men slide img" />
@@ -39,7 +91,7 @@ const Home = () => {
                 <a data-seq href="#" className="aa-shop-now-btn aa-secondary-btn">SHOP NOW</a>
               </div>
             </li>
-            {/* single slide item */}
+           
             <li>
               <div className="seq-model">
                 <img data-seq src="img/slider/2.jpg" alt="Wristwatch slide img" />
@@ -51,7 +103,7 @@ const Home = () => {
                 <Link data-seq to="#" className="aa-shop-now-btn aa-secondary-btn">SHOP NOW</Link>
               </div>
             </li>
-            {/* single slide item */}
+           
             <li>
               <div className="seq-model">
                 <img data-seq src="img/slider/3.jpg" alt="Women Jeans slide img" />
@@ -63,7 +115,7 @@ const Home = () => {
                 <a data-seq href="#" className="aa-shop-now-btn aa-secondary-btn">SHOP NOW</a>
               </div>
             </li>
-            {/* single slide item */}           
+                     
             <li>
               <div className="seq-model">
                 <img data-seq src="img/slider/4.jpg" alt="Shoes slide img" />
@@ -75,7 +127,7 @@ const Home = () => {
                 <a data-seq href="#" className="aa-shop-now-btn aa-secondary-btn">SHOP NOW</a>
               </div>
             </li>
-            {/* single slide item */}  
+           
              <li>
               <div className="seq-model">
                 <img data-seq src="img/slider/5.jpg" alt="Male Female slide img" />
@@ -89,12 +141,14 @@ const Home = () => {
             </li>                   
           </ul>
         </div>
-        {/* slider navigation btn */}
+        
         <fieldset className="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
           <a type="button" className="seq-prev" aria-label="Previous"><span className="fa fa-angle-left"></span></a>
           <a type="button" className="seq-next" aria-label="Next"><span className="fa fa-angle-right"></span></a>
         </fieldset>
-      </div>
+      </div> */}
+    </div>
+    </div>
     </div>
   </section>
   {/* / slider */}
@@ -196,7 +250,7 @@ const Home = () => {
                             </figcaption>
                           </figure>                        
                           <div className="aa-product-hvr-content">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></a>
+                            <Link to="" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
                             <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></a>
                             <a href="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></a>                          
                           </div>

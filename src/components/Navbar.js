@@ -116,10 +116,10 @@ const Navbar = () => {
               {/* Left nav */}
               <ul className="nav navbar-nav">
                 <li><a href="/">Home</a></li>
-                <li><Link to="/Canopies">CLinknopies</Link></li>
-                <li><Link to="#">MusicLinkl Set</Link></li>            
-                <li><Link to="#">GenerLinktors</Link></li>
-                <li><Link to="#">BLinkrrels</Link></li>              
+                <li><Link to="/Canopies">Canopies</Link></li>
+                <li><Link to="#">Musical Set</Link></li>            
+                <li><Link to="#">Generators</Link></li>
+                <li><Link to="#">Barrels</Link></li>              
                 <li><Link to="#">Coolers</Link></li>
                 <li><a>More Rentals <span className="caret"></span></a>
                   <ul className="dropdown-menu">                
