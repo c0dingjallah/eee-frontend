@@ -115,7 +115,7 @@ const Navbar = () => {
             <div className="navbar-collapse collapse">
               {/* Left nav */}
               <ul className="nav navbar-nav">
-                <li><a href="/">Home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li><Link to="/Canopies">Canopies</Link></li>
                 <li><Link to="#">Musical Set</Link></li>            
                 <li><Link to="#">Generators</Link></li>
