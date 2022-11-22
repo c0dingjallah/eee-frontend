@@ -117,17 +117,17 @@ const Navbar = () => {
               <ul className="nav navbar-nav">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Canopies">Canopies</Link></li>
-                <li><Link to="#">Musical Set</Link></li>            
-                <li><Link to="#">Generators</Link></li>
-                <li><Link to="#">Barrels</Link></li>              
-                <li><Link to="#">Coolers</Link></li>
-                <li><a>More Rentals <span className="caret"></span></a>
-                  <ul className="dropdown-menu">                
-                    <li><Link to="">Tables</Link></li>
-                    <li><Link to="">Chairs</Link></li>
-                    <li><Link to="">Stools</Link></li>                
-                  </ul>
-                </li>
+                <li><Link to="/Speakers">Musical Set</Link></li>            
+                <li><Link to="/Generators">Generators</Link></li>
+                <li><Link to="/Barrels">Barrels</Link></li>              
+                <li><Link to="/Coolers">Coolers</Link></li>
+                {/* <li><a>More Rentals <span className="caret"></span></a>
+                  <ul className="dropdown-menu">                 */}
+                    <li><Link to="/Tables">Tables</Link></li>
+                    <li><Link to="/Chairs">Chairs</Link></li>
+                    <li><Link to="/Stools">Stools</Link></li>                
+                  {/* </ul>
+                </li> */}
               </ul>
             </div>{/*/.nav-collapse */}
           </div>

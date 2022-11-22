@@ -64,8 +64,8 @@ const Home = () => {
         <Slide autoplay={true}>
          {slideImages.map((slideImage, index)=> (
             <div className="each-slide" style={{height: 500}} key={index}>
-              <div style={{'backgroundImage': `url(${slideImage.url})`, height: 500}}>
-                <div className="none">
+              <div style={{'backgroundImage': `url(${slideImage.url})`, height: 500,   width: '100%', textAlign: 'center'}}>
+                <div id="slidestyle">
                 <span >{slideImage.caption}</span>                
                 <h2 style={{verticalAlign: 'middle'}} >{slideImage.captiontwo}</h2>                
                 <p style={{verticalAlign: 'middle'}} >{slideImage.caption3}</p>
