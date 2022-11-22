@@ -3,7 +3,7 @@ const Canopies = () => {
  
   return (
     <>
-<div>Canopieing it up woo woo</div>
+<div>Canopies will go here</div>
 
     </>
   )
