@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useOrdersContext } from '../hooks/useOrdersContext'
 import { useAuthContext } from "../hooks/useAuthContext"
 import { useEffect }from 'react'
@@ -7,7 +7,8 @@ import { useAdminLogout } from '../hooks/useAdminLogout'
 
 
 const Reservations = () => {
-
+  const navigate = useNavigate();
+  
   const { adminlogout } = useAdminLogout()
   const { admin } = useAdminContext()
   const {orders, dispatch} = useOrdersContext()
