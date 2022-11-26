@@ -1,6 +1,5 @@
 import { useNavigate, Link } from "react-router-dom";
 import { useOrdersContext } from '../hooks/useOrdersContext'
-import { useAuthContext } from "../hooks/useAuthContext"
 import { useEffect }from 'react'
 import { useAdminContext } from '../hooks/useAdminContext'
 import { useAdminLogout } from '../hooks/useAdminLogout'
@@ -12,7 +11,7 @@ const Reservations = () => {
   const { adminlogout } = useAdminLogout()
   const { admin } = useAdminContext()
   const {orders, dispatch} = useOrdersContext()
-  const {user} = useAuthContext()
+
 
   const handleAdmin = () => {
     adminlogout()
@@ -38,7 +37,7 @@ const Reservations = () => {
     }
   }
 
-  if (user) {
+  if (admin) {
     fetchOrders()
   }
 }, [])
