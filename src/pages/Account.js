@@ -60,7 +60,7 @@ const Dashboard = () => {
         console.log(emailornum)
         console.log(password)
 
-        await login(emailornum, password)
+        await login(lemailornum, lpassword)
 
         if (lerror !== null) {
           setOerror(error)
