@@ -16,7 +16,7 @@ const Login = () => {
         await adminlogin(emailornum, password)
 
         if (error !== null) {
-          setOerror(error)
+         
          console.log(error)
 
         }else{
