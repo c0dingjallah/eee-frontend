@@ -77,7 +77,7 @@ const Navbar = () => {
                   <li>
                   {!user && ( <><Link to="/Account">Login</Link></>)}
                   </li>
-                  <li> {user && (<a className="dropdown-item" type="button" onClick={handleClick}>Log out</a>  )}
+                  <li> {user && (<a href="" onClick={handleClick}>Log out</a>  )}
                   </li>
                 </ul>
               </div>
