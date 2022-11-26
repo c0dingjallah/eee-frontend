@@ -2,12 +2,24 @@ import { Link } from "react-router-dom";
 import { useOrdersContext } from '../hooks/useOrdersContext'
 import { useAuthContext } from "../hooks/useAuthContext"
 import { useEffect }from 'react'
+import { useAdminContext } from '../hooks/useAdminContext'
+import { useAdminLogout } from '../hooks/useAdminLogout'
 
 
 const Reservations = () => {
 
+  const { adminlogout } = useAdminLogout()
+  const { admin } = useAdminContext()
   const {orders, dispatch} = useOrdersContext()
   const {user} = useAuthContext()
+
+  const handleAdmin = () => {
+    adminlogout()
+      return(
+          navigate('/', { replace: true })
+          )
+    
+  }
 
   useEffect(() => {
 
@@ -41,6 +53,18 @@ const Reservations = () => {
           <ol className="breadcrumb">
             <li><Link to="/Dashboard"><i className="fa fa-dashboard"></i> Home</Link></li>
             <li className="active">Dashboard</li>
+            <li> {admin && (
+                                <>
+                                <button className="dropdown-item" type="button">{admin.admin.name}</button>
+
+                                </>
+                            )}</li>
+            <li>{admin && (
+                                <>
+
+                                <button className="dropdown-item" type="button" onClick={handleAdmin}>Log out</button>
+                                </>
+                            )}</li>
           </ol>
         </section>
 

@@ -1,7 +1,27 @@
-import { Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import { useAdminLogin } from "../hooks/useAdminLogin"
+import { useState } from "react"
+
+const Login = () => {
+  const navigate = useNavigate();
+
+  const [emailornum, setEmailornum] = useState('');
+  const [password, setPassword] = useState('');
+  const {adminlogin, error, isLoading} = useAdminLogin()
+    
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
 
-const Dashboard = () => {
+        await adminlogin(emailornum, password)
+
+        if(error === null){
+          return(
+            navigate('/Reservations', { replace: true })
+            )
+        }
+    
+      }
  
   return (
     <>
@@ -32,11 +52,19 @@ const Dashboard = () => {
               <div className="col-md-12">
                 <div className="aa-myaccount-login">
                 <h4>Admin Login</h4>
-                 <form action="" className="aa-login-form">
+                 <form onSubmit={handleSubmit} className="aa-login-form">
                   <label >Username or Email address<span>*</span></label>
-                   <input type="text" placeholder="Username or email" />
+                   <input type="text" 
+                   placeholder="Username or email" 
+                   value={emailornum}
+                  onChange={(e) => setEmailornum(e.target.value)}
+                  required />
                    <label >Password<span>*</span></label>
-                    <input type="password" placeholder="Password" />
+                    <input type="password" 
+                    placeholder="Password" 
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required />
                     <button type="submit" className="aa-browse-btn">Login</button>
                   </form>
                 </div>
@@ -52,4 +80,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default Login

@@ -65,7 +65,6 @@ const Navbar = () => {
               <div className="aa-header-top-right">
                 <ul className="aa-head-top-nav-right">
                 <li className="hidden-xs"><Link to="/Admin">Admin</Link></li>
-                  <li><Link to="/Reservations">Reservations</Link></li>
                   <li>
                   {user && ( <> <button className="dropdown-item" type="button">hi: {user.user.name}</button></>)}
                   
