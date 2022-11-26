@@ -74,7 +74,7 @@ function App() {
               element={<Dashboard />} 
             />
             <Route 
-              path="/Detail/:name/:image" 
+              path="/Detail/:itemname/:image" 
               element={<Detail />} 
             />
             <Route 
