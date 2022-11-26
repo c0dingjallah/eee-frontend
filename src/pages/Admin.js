@@ -26,6 +26,17 @@ const Login = () => {
         }
     
       }
+
+      useEffect(() => {
+        const admin = JSON.parse(localStorage.getItem('admin'))
+    
+        if (admin) {
+          dispatch({ type: 'LOGIN', payload: admin }) 
+          return(
+            navigate('/Reservations', { replace: true })
+            )
+        }
+      }, [])
  
   return (
     <>
