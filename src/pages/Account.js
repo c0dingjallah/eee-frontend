@@ -128,7 +128,7 @@ const Dashboard = () => {
                      required />
                     <label >Email Address or Phone Number<span>*</span></label>
                     <input type="text" 
-                      value={esmailornum}
+                      value={semailornum}
                       onChange={(e) => setSemailornum(e.target.value)}
                       placeholder="Email Address or Phone Number" 
                       required />
