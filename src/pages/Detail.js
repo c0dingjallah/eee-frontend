@@ -14,7 +14,7 @@ const Detail = () => {
   const {dispatch} = useOrdersContext()
 
   const [date, setDate] = useState('');
-  const [time, setTime] = useState('');
+  const [time, setTime] = useState('1');
   const [contact, setContact] = useState('');
   const [oerror, setOerror] = useState(null)
   const [emptyFields, setEmptyFields] = useState([])
@@ -23,23 +23,24 @@ const Detail = () => {
       e.preventDefault();
       
       //console.log(localStorage)
+      console.log(user)
       
       if (!user) {
           if (window.confirm('You must login to book Reservation.')) 
           {
               return(
-                  navigate('/Login', { replace: true })
+                  navigate('/Account', { replace: true })
                   )
           };
           
         }
 
         if(user){
-          
+          console.log("runs")
               const username = user.user.name;
               const user_id = user.user._id;
 
-              //console.log(user)
+              
               const orderObj = {username, itemname, image, price, date, time, contact, user_id}
               
               const response = await fetch('/api/order', {
