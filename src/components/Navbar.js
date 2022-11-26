@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const navigate = useNavigate()
   
-  const handleClick = () => {
+  const handleClick = (e) => {
     e.preventDefault();
     logout()
       return(

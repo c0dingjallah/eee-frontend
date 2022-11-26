@@ -40,9 +40,9 @@ const Dashboard = () => {
 
             }else{
 
-              setName('')
-              setEmailornum('')
-              setPassword('')
+              setSname('')
+              setSemailornum('')
+              setSpassword('')
               setOerror(null)
                
               alert("signup successful")
@@ -61,6 +61,9 @@ const Dashboard = () => {
          console.log(oerror)
 
         }else{
+
+          setLemailornum('')
+          setLpassword('')
           return(
             navigate('/', { replace: true })
             )
