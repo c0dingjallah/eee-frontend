@@ -13,7 +13,7 @@ const Detail = () => {
   const navigate = useNavigate()
   const {dispatch} = useOrdersContext()
 
-  const [date, setDate] = useState('Deluxe');
+  const [date, setDate] = useState('');
   const [time, setTime] = useState('');
   const [contact, setContact] = useState('');
   const [oerror, setOerror] = useState(null)
@@ -80,7 +80,7 @@ const Detail = () => {
     <>
           {/* catg header banner section */}
   <section id="aa-catg-head-banner">
-   <img src="img/fashion/fashion-header-bg-8.jpg" alt="fashion img"/>
+   <img src="https://eeegroup.onrender.com/img/fashion/fashion-header-bg-8.jpg" alt="fashion img"/>
    <div className="aa-catg-head-banner-area">
      <div className="container">
       <div className="aa-catg-head-banner-content">
@@ -109,7 +109,7 @@ const Detail = () => {
                   <div className="aa-product-view-slider">                                
                     <div id="demo-1" className="simpleLens-gallery-container">
                       <div className="simpleLens-container">
-                        <div className="simpleLens-big-image-container"><a data-lens-image={`img/${itemname}/${image}`} className="simpleLens-lens-image"><img src={`img/${itemname}/${image}`} className="simpleLens-big-image" /></a></div>
+                        <div className="simpleLens-big-image-container"><a data-lens-image={`https://eeegroup.onrender.com/img/${itemname}/${image}`} className="simpleLens-lens-image"><img src={`https://eeegroup.onrender.com/img/${itemname}/${image}`} className="simpleLens-big-image" /></a></div>
                       </div>
                         
                     </div>
@@ -137,7 +137,7 @@ const Detail = () => {
                           <div className="form-group">   
                             <label>Choose Rental Time</label>                     
                             <select className="form-control"
-                            value={date}
+                            value={time}
                             onChange={(e) => setTime(e.target.value)}
                             required >
                             <option value="1">1 day - 24 hrs</option>
