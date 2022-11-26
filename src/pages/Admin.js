@@ -15,7 +15,11 @@ const Login = () => {
 
         await adminlogin(emailornum, password)
 
-        if(error === null){
+        if (error !== null) {
+          setOerror(error)
+         console.log(error)
+
+        }else{
           return(
             navigate('/Reservations', { replace: true })
             )
