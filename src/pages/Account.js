@@ -54,7 +54,11 @@ const Dashboard = () => {
 
         await login(lemailornum, lpassword)
 
-        if(error === null){
+        if (lerror !== null) {
+          setOerror(error)
+         console.log(oerror)
+
+        }else{
           return(
             navigate('/', { replace: true })
             )
