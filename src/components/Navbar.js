@@ -96,7 +96,7 @@ const Navbar = () => {
               {/* logo  */}
               <div className="aa-logo">
                 {/* Text based logo */}
-                <Link to="index.html">
+                <Link to="/">
                   <span><span className="fa fa-shopping-cart"></span>
                  <strong>EEE</strong>  <span style={{fontSize: 15, color: 'grey', verticalAlign: 'middle'}}>EXCELLENT EFFICIENT & EFFECTIVE</span>
                   </span>
