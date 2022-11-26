@@ -10,9 +10,9 @@ const Dashboard = () => {
   const { user } = useAuthContext()
  
   const navigate = useNavigate();
-  const [name, setName] = useState('');
-  const [emailornum, setEmailornum] = useState('');
-  const [password, setPassword] = useState('');
+  // const [name, setName] = useState('');
+  // const [emailornum, setEmailornum] = useState('');
+  // const [password, setPassword] = useState('');
 
   const [lemailornum, setLemailornum] = useState('');
   const [lpassword, setLpassword] = useState('');
@@ -28,11 +28,8 @@ const Dashboard = () => {
       
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setEmailornum(semailornum)
-        setPassword(spassword)
-        setName(sname)
-
-        await signup(name, emailornum, password)
+       
+        await signup(sname, semailornum, spassword)
         //await delay(000);
         
             
@@ -55,10 +52,7 @@ const Dashboard = () => {
 
       const handleLogin = async (e) => {
         e.preventDefault();
-        setEmailornum(lemailornum)
-        setPassword(lpassword)
-        console.log(emailornum)
-        console.log(password)
+      
 
         await login(lemailornum, lpassword)
 
