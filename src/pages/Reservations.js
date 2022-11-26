@@ -25,8 +25,8 @@ const Reservations = () => {
   useEffect(() => {
 
   const fetchOrders = async () => {
-    const response = await fetch('/api/order/'+user.user._id, {
-      headers: {'Authorization': `Bearer ${user.token}`},
+    const response = await fetch('/api/order/', {
+      headers: {'Authorization': `Bearer ${admin.token}`},
     })
     const json = await response.json()
 
