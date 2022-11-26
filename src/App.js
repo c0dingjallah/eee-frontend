@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+
 // pages & components
 import Home from './pages/Home'
 import Canopies from './pages/canopies'
@@ -10,17 +11,28 @@ import Coolers from './pages/Coolers'
 import Tables from './pages/Tables'
 import Chairs from './pages/Chairs'
 import Stools from './pages/Stools'
-import Navbar from './components/Navbar'
+import Dashboard from './pages/Dashboard'
+import Detail from './pages/Detail'
+import Account from './pages/Account'
+import Admin from './pages/Admin'
+import Reservations from './pages/Reservations'
+// import Navbar from './components/Navbar'
 import Footer from './components/footer'
+import Layout from './components/Layout'
 
 function App() {
 
+
   return (
     <div className="App">
-      <BrowserRouter>
-        <Navbar />
+      <BrowserRouter >
+      
+     
+      
         <div className="pages">
-          <Routes>
+          
+        <Routes>
+          <Route element={<Layout />}>
             <Route 
               path="/" 
               element={<Home />} 
@@ -56,6 +68,28 @@ function App() {
             <Route 
               path="/Stools" 
               element={<Stools />} 
+            />
+             <Route 
+              path="/Dashboard" 
+              element={<Dashboard />} 
+            />
+            <Route 
+              path="/Detail/:name/:image" 
+              element={<Detail />} 
+            />
+            <Route 
+              path="/Account" 
+              element={<Account />} 
+            />
+
+           </Route>
+           <Route 
+              path="/Admin" 
+              element={<Admin />} 
+            />
+            <Route 
+              path="/Reservations" 
+              element={<Reservations />} 
             />
           </Routes>
         </div>

@@ -1,9 +1,21 @@
-import { Link } from "react-router-dom";
-
+import { useNavigate, Link } from "react-router-dom";
+import { useLogout } from '../hooks/useLogout'
+import { useAuthContext } from '../hooks/useAuthContext'
 
 const Navbar = () => {
 
+  const { logout } = useLogout()
+  const { user } = useAuthContext()
+
+  const navigate = useNavigate()
+  
+  const handleClick = () => {
+    logout()
+      return(
+          navigate('/', { replace: true })
+          )
     
+  }
 
   return (
     <>
@@ -52,9 +64,21 @@ const Navbar = () => {
               {/* / header top left */}
               <div className="aa-header-top-right">
                 <ul className="aa-head-top-nav-right">
-                  <li><Link to="account.html">My Account</Link></li>
-                  <li className="hidden-xs"><Link to="checkout.html">Signup</Link></li>
-                  <li><Link to="" data-toggle="modal" data-target="#login-modal">Login</Link></li>
+                <li className="hidden-xs"><Link to="/Admin">Admin</Link></li>
+                  <li><Link to="/Reservations">Reservations</Link></li>
+                  <li>
+                  {user && ( <> <button className="dropdown-item" type="button">hi: {user.user.name}</button></>)}
+                  
+                  </li>
+                  <li><Link to="/Dashboard"><i className="fa fa-dashboard"></i> Dashboard</Link></li>
+                  <li className="hidden-xs">
+                  {!user && ( <> <Link to="/Account">Signup</Link></> )}
+                    </li>
+                  <li>
+                  {!user && ( <><Link to="/Account">Login</Link></>)}
+                  </li>
+                  <li> {user && (<><button className="dropdown-item" type="button" onClick={handleClick}>Log out</button> </> )}
+                  </li>
                 </ul>
               </div>
             </div>
