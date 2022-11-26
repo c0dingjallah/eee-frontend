@@ -19,10 +19,6 @@ const Detail = () => {
   const [oerror, setOerror] = useState(null)
   const [emptyFields, setEmptyFields] = useState([])
 
-  setDate
-  setTime
-  setContact
-
   const handleSubmit = async (e) => {
       e.preventDefault();
       
