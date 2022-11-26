@@ -10,6 +10,7 @@ const Navbar = () => {
   const navigate = useNavigate()
   
   const handleClick = () => {
+    e.preventDefault();
     logout()
       return(
           navigate('/', { replace: true })
@@ -66,7 +67,7 @@ const Navbar = () => {
                 <ul className="aa-head-top-nav-right">
                 <li className="hidden-xs"><Link to="/Admin">Admin</Link></li>
                   <li>
-                  {user && ( <> <button className="dropdown-item" type="button">hi: {user.user.name}</button></>)}
+                  {user && ( <> hi: {user.user.name}</>)}
                   
                   </li>
                   <li>{user && <Link to="/Dashboard"><i className="fa fa-dashboard"></i> Dashboard</Link> }</li>
@@ -76,7 +77,7 @@ const Navbar = () => {
                   <li>
                   {!user && ( <><Link to="/Account">Login</Link></>)}
                   </li>
-                  <li> {user && (<><button className="dropdown-item" type="button" onClick={handleClick}>Log out</button> </> )}
+                  <li> {user && (<a className="dropdown-item" type="button" onClick={handleClick}>Log out</a>  )}
                   </li>
                 </ul>
               </div>

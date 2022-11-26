@@ -9,31 +9,36 @@ const Home = () => {
       url: 'img/slider/1.jpg',
       caption: 'Save Up to 75% Off',
       captiontwo: 'Tents & Canopies',
-      caption3: 'Best tents & Canopies On The Market.'
+      caption3: 'Best tents & Canopies On The Market.',
+      tent: 'tent21.jpg'
     },
     {
       url: 'img/slider/2.jpg',
       caption: 'Save Up to 75% Off',
       captiontwo: 'Tents & Canopies',
-      caption3: 'Best tents & Canopies On The Market.'
+      caption3: 'Best tents & Canopies On The Market.',
+      tent: 'tent5i.jpg'
     },
     {
       url: 'img/slider/3.jpg',
       caption: 'Save Up to 75% Off',
       captiontwo: 'Tents & Canopies',
-      caption3: 'Best tents & Canopies On The Market.'
+      caption3: 'Best tents & Canopies On The Market.',
+      tent: 'tent14.jpg'
     },
     {
       url: 'img/slider/4.jpg',
       caption: 'Save Up to 75% Off',
       captiontwo: 'Tents & Canopies',
-      caption3: 'Best tents & Canopies On The Market.'
+      caption3: 'Best tents & Canopies On The Market.',
+      tent: 'tent18.jpg'
     },
     {
       url: 'img/slider/5.jpg',
       caption: 'Save Up to 75% Off',
       captiontwo: 'Tents & Canopies',
-      caption3: 'Best tents & Canopies On The Market.'
+      caption3: 'Best tents & Canopies On The Market.',
+      tent: 'tent17.jpg'
     }
   ];
 
@@ -69,7 +74,7 @@ const Home = () => {
                 <span >{slideImage.caption}</span>                
                 <h2 style={{verticalAlign: 'middle'}} >{slideImage.captiontwo}</h2>                
                 <p style={{verticalAlign: 'middle'}} >{slideImage.caption3}</p>
-                <Link  to="Detail">SHOP NOW</Link>
+                <Link  to={`Detail/canopies/${slideImage.tent}`}>SHOP NOW</Link>
               </div>
               </div>
             </div>
@@ -313,7 +318,7 @@ const Home = () => {
                         <li>
                           <figure>
                             <a className="aa-product-img" href="#"><img src="img/canopies/tent8.jpg" alt="polo shirt img" /></a>
-                            <a className="aa-add-card-btn"href="#"><span className="fa fa-shopping-cart"></span>Rent Now</a>
+                            <Link className="aa-add-card-btn"to="/Detail/canopies/tent8.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                             <figcaption>
                               <h4 className="aa-product-title"><a href="#">Tent</a></h4>
                               <span className="aa-product-price">$$.$$</span>

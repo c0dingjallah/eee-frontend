@@ -18,10 +18,10 @@ const Dashboard = () => {
     const json = await response.json()
 
     if (response.ok) {
-      //console.log("it works")
+      console.log(json)
       dispatch({type: 'SET_ORDERS', payload: json})
     }else{
-      //console.log(response.error)
+      console.log(response.error)
     }
   }
 
