@@ -69,7 +69,7 @@ const Navbar = () => {
                   {user && ( <> <button className="dropdown-item" type="button">hi: {user.user.name}</button></>)}
                   
                   </li>
-                  <li><Link to="/Dashboard"><i className="fa fa-dashboard"></i> Dashboard</Link></li>
+                  <li>{user && <Link to="/Dashboard"><i className="fa fa-dashboard"></i> Dashboard</Link> }</li>
                   <li className="hidden-xs">
                   {!user && ( <> <Link to="/Account">Signup</Link></> )}
                     </li>
