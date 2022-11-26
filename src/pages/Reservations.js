@@ -52,7 +52,7 @@ const Reservations = () => {
             <small>Version 2.0</small>
           </h1>
           <ol className="breadcrumb">
-            <li><Link to="/Dashboard"><i className="fa fa-dashboard"></i> Home</Link></li>
+            <li><Link to="/"><i className="fa fa-dashboard"></i> Home</Link></li>
             <li className="active">Dashboard</li>
             <li> {admin && (
                                 <>
