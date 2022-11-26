@@ -1,9 +1,11 @@
 import { useNavigate, Link } from "react-router-dom";
 import { useAdminLogin } from "../hooks/useAdminLogin"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { useAdminContext } from './useAdminContext'
 
 const Login = () => {
   const navigate = useNavigate();
+  const { dispatch } = useAdminContext()
 
   const [emailornum, setEmailornum] = useState('');
   const [password, setPassword] = useState('');
