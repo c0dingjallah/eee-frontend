@@ -6,7 +6,7 @@ import { useOrdersContext } from '../hooks/useOrdersContext'
 const Detail = () => {
   const { itemname } = useParams();
   const { image } = useParams();
-  const price = 100;
+  const price = "100";
 
 
   const { user } = useAuthContext()
@@ -51,7 +51,7 @@ const Detail = () => {
                 }
               })
               const json = await response.json()
-  
+              console.log(json)
               if (!response.ok) {
                 setOerror(json.error)
                 setEmptyFields(json.emptyFields)
