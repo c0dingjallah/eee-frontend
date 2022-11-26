@@ -57,6 +57,8 @@ const Dashboard = () => {
         e.preventDefault();
         setEmailornum(lemailornum)
         setPassword(lpassword)
+        console.log(emailornum)
+        console.log(password)
 
         await login(emailornum, password)
 
