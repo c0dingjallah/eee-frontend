@@ -10,14 +10,17 @@ const Dashboard = () => {
   const { user } = useAuthContext()
  
   const navigate = useNavigate();
+  const [name, setName] = useState('');
+  const [emailornum, setEmailornum] = useState('');
+  const [password, setPassword] = useState('');
 
   const [lemailornum, setLemailornum] = useState('');
   const [lpassword, setLpassword] = useState('');
   const {login, lerror, lisLoading} = useLogin()
 
-  const [name, setName] = useState('');
-  const [emailornum, setEmailornum] = useState('');
-  const [password, setPassword] = useState('');
+  const [sname, setSname] = useState('');
+  const [semailornum, setSemailornum] = useState('');
+  const [spassword, setSpassword] = useState('');
   const {signup, error, isLoading, userObj} = useSignup()
   const [oerror, setOerror] = useState(null)
 
@@ -25,7 +28,9 @@ const Dashboard = () => {
       
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+        setEmailornum(semailornum)
+        setPassword(spassword)
+        setName(sname)
 
         await signup(name, emailornum, password)
         //await delay(000);
@@ -50,9 +55,10 @@ const Dashboard = () => {
 
       const handleLogin = async (e) => {
         e.preventDefault();
+        setEmailornum(lemailornum)
+        setPassword(lpassword)
 
-
-        await login(lemailornum, lpassword)
+        await login(emailornum, password)
 
         if (lerror !== null) {
           setOerror(error)
@@ -116,20 +122,20 @@ const Dashboard = () => {
                  <form onSubmit={handleSubmit} className="aa-login-form">
                     <label >Full Name<span>*</span></label>
                     <input type="text"
-                     value={name}
-                     onChange={(e) => setName(e.target.value)}
+                     value={sname}
+                     onChange={(e) => setSname(e.target.value)}
                      placeholder="Full Name" 
                      required />
                     <label >Email Address or Phone Number<span>*</span></label>
                     <input type="text" 
-                      value={emailornum}
-                      onChange={(e) => setEmailornum(e.target.value)}
+                      value={esmailornum}
+                      onChange={(e) => setSemailornum(e.target.value)}
                       placeholder="Email Address or Phone Number" 
                       required />
                     <label >Password<span>*</span></label>
                     <input type="password" 
-                     value={password}
-                     onChange={(e) => setPassword(e.target.value)}
+                     value={spassword}
+                     onChange={(e) => setSpassword(e.target.value)}
                      placeholder="Password" 
                      required />
                     <button type="submit" className="aa-browse-btn">Register</button>                    

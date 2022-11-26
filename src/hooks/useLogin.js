@@ -6,14 +6,14 @@ export const useLogin = () => {
   const [lisLoading, setLisloading] = useState(null)
   const { dispatch } = useAuthContext()
 
-  const login = async (lemailornum, lpassword) => {
+  const login = async (emailornum, password) => {
     setLisloading(true)
     setLerror(null)
 
     const response = await fetch('/api/user/login', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({ lemailornum, lpassword })
+      body: JSON.stringify({ emailornum, password })
     })
     const json = await response.json()
 
