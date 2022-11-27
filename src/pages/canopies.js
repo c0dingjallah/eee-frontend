@@ -52,18 +52,18 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="//https://eeegroup.onrender.com/Detail/canopies/tent1.jpg"><img src="img/canopies/tent1.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="//https://eeegroup.onrender.com/Detail/canopies/tent1.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent1.jpg"><img src="img/canopies/tent1.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent1.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="//https://eeegroup.onrender.com/Detail/canopies/tent1.jpg">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent1.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="//https://eeegroup.onrender.com/Detail/canopies/tent1.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="//https://eeegroup.onrender.com/Detail/canopies/tent1.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="//https://eeegroup.onrender.com/Detail/canopies/tent1.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>                            
+                    <Link to="/Detail/canopies/tent1.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent1.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent1.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>                            
                   </div>
                   {/* product badge */}
                   <span className="aa-badge aa-sale" to="#">SALE!</span>
