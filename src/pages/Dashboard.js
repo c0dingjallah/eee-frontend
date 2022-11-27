@@ -129,7 +129,7 @@ const Dashboard = () => {
                       <td><span className="label label-success">{order.itemname}</span></td>
                       <td><span className="label label-warning">{order.price}</span></td>
                       <td><span className="label label-primary">{dateFormat(order.date,"fullDate")}</span></td>
-                      <td><span className="label label-danger">{order.time}</span></td>
+                      <td><span className="label label-danger">{order.time}day/days</span></td>
                       <td>{order.contact}</td>
                     </tr>
                     ))}

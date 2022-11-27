@@ -46,7 +46,8 @@ const Dashboard = () => {
               setSpassword('')
               setOerror(null)
               setDisplay(false)
-              alert("signup successful")
+              alert("signup & login successful")
+              navigate('/', { replace: true })
               }
                        
       }
@@ -62,7 +63,7 @@ const Dashboard = () => {
 
         if (lerror !== null) {
           setDisplay(false)
-          setOerror(error)
+          setOerror(lerror)
          console.log(oerror)
 
         }else{
