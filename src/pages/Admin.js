@@ -1,7 +1,7 @@
 import { useNavigate, Link } from "react-router-dom";
 import { useAdminLogin } from "../hooks/useAdminLogin"
 import { useState, useEffect } from "react"
-import { useAdminContext } from './useAdminContext'
+import { useAdminContext } from '../context/useAdminContext'
 
 const Login = () => {
   const navigate = useNavigate();
