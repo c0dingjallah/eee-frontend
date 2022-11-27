@@ -212,7 +212,7 @@ const Detail = () => {
                         <div className="media">
                           <div className="media-left">
                             <a href="#">
-                              <img className="media-object" src="img/testimonial-img-3.jpg" alt="girl image" />
+                              <img className="media-object" src="/img/testimonial-img-3.jpg" alt="girl image" />
                             </a>
                           </div>
                           <div className="media-body">
@@ -232,7 +232,7 @@ const Detail = () => {
                         <div className="media">
                           <div className="media-left">
                             <a href="#">
-                              <img className="media-object" src="img/testimonial-img-2.jpg" alt="girl image" />
+                              <img className="media-object" src="/img/testimonial-img-2.jpg" alt="girl image" />
                             </a>
                           </div>
                           <div className="media-body">
@@ -249,32 +249,8 @@ const Detail = () => {
                         </div>
                       </li>
                    </ul>
-                   <h4>Add a review</h4>
-                   <div className="aa-your-rating">
-                     <p>Your Rating</p>
-                     <a href="#"><span className="fa fa-star-o"></span></a>
-                     <a href="#"><span className="fa fa-star-o"></span></a>
-                     <a href="#"><span className="fa fa-star-o"></span></a>
-                     <a href="#"><span className="fa fa-star-o"></span></a>
-                     <a href="#"><span className="fa fa-star-o"></span></a>
-                   </div>
-                   {/* review form */}
-                   <form action="" className="aa-review-form">
-                      <div className="form-group">
-                        <label >Your Review</label>
-                        <textarea className="form-control" rows="3" id="message"></textarea>
-                      </div>
-                      <div className="form-group">
-                        <label >Name</label>
-                        <input type="text" className="form-control" id="name" placeholder="Name" />
-                      </div>  
-                      <div className="form-group">
-                        <label >Email</label>
-                        <input type="email" className="form-control" id="email" placeholder="example@gmail.com" />
-                      </div>
-
-                      <button type="submit" className="btn btn-default aa-review-submit">Submit</button>
-                   </form>
+                 
+ 
                  </div>
                 </div>            
               </div>
