@@ -52,18 +52,18 @@ const Generators = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/tables/table1.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/tables/table1.jpg"><img src="img/tables/table1.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/tables/table1.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Table</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/tables/table1.jpg">Table</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>                            
+                    <Link to="/Detail/tables/table1.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/tables/table1.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/tables/table1.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>                            
                   </div>
                   {/* product badge */}
                   <span className="aa-badge aa-sale" to="#">SALE!</span>
@@ -71,18 +71,18 @@ const Generators = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/tables/table2.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/tables/table2.jpg"><img src="img/tables/table2.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/tables/table2.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Table</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/tables/table2.jpg">Table</Link></h4>
                       <span className="aa-product-price">$$.$$</span>
                        <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/tables/table2.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/tables/table2.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/tables/table2.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                   {/* product badge */}
                    <span className="aa-badge aa-sold-out" to="#">Exclusive!</span>
@@ -170,25 +170,25 @@ const Generators = () => {
             <div className="aa-sidebar-widget">
               <h3>Top Rated Products</h3>
               <div className="aa-recently-views">
-                <ul>
+              <ul>
                   <li>
-                    <Link to="#" className="aa-cartbox-img"><img alt="img" src="img/toprated1.jpg" /></Link>
+                    <Link to="/Detail/canopies/tent12.jpg" className="aa-cartbox-img"><img alt="img" src="img/toprated1.jpg" /></Link>
                     <div className="aa-cartbox-info">
-                      <h4><Link to="#">Tent</Link></h4>
+                      <h4><Link to="/Detail/canopies/tent12.jpg">Tent</Link></h4>
                       <p>1 x $$.$$</p>
                     </div>                    
                   </li>
                   <li>
-                    <Link to="#" className="aa-cartbox-img"><img alt="img" src="img/toprated2.jpg" /></Link>
+                    <Link to="/Detail/musicalset/speakers1.jpg" className="aa-cartbox-img"><img alt="img" src="img/toprated2.jpg" /></Link>
                     <div className="aa-cartbox-info">
-                      <h4><Link to="#">Speaker</Link></h4>
+                      <h4><Link to="/Detail/musicalset/speakers1.jp">Speaker</Link></h4>
                       <p>1 x $$.$$</p>
                     </div>                    
                   </li>
                    <li>
-                    <Link to="#" className="aa-cartbox-img"><img alt="img" src="img/toprated3.jpg" /></Link>
+                    <Link to="/Detail/generators/generator1.jpg" className="aa-cartbox-img"><img alt="img" src="img/toprated3.jpg" /></Link>
                     <div className="aa-cartbox-info">
-                      <h4><Link to="#">Generator</Link></h4>
+                      <h4><Link to="/Detail/generators/generator1.jpg">Generator</Link></h4>
                       <p>1 x $$.$$</p>
                     </div>                    
                   </li>                                      

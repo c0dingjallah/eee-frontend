@@ -148,7 +148,7 @@ const Reservations = () => {
                     <tr key={order._id}>
                       <td>{index + 1}</td>
                       <td>{order.username}</td>
-                      <td><img src={`img/${order.itemname}/${order.image}`} /></td>
+                      <td><img src={`img/${order.itemname}/${order.image}`} style={{maxWidth: 100}} /></td>
                       <td><span className="label label-success">{order.itemname}</span></td>
                       <td><span className="label label-warning">{order.price}</span></td>
                       <td><span className="label label-primary">{order.date}</span></td>

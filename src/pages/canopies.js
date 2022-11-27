@@ -71,18 +71,18 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent2.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent2.jpg"><img src="img/canopies/tent2.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent2.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent2.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span>
                        <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent2.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent2.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent2.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                   {/* product badge */}
                    <span className="aa-badge aa-sold-out" to="#">Sold Out!</span>
@@ -90,35 +90,35 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent3.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent3.jpg"><img src="img/canopies/tent3.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent3.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent3.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                        <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent3.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent3.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent3.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent23.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent23.jpg"><img src="img/canopies/tent23.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent23.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent23.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent23.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent23.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent23.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                   {/* product badge */}
                   <span className="aa-badge aa-hot" to="#">HOT!</span>
@@ -126,52 +126,52 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent5i.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent5i.jpg"><img src="img/canopies/tent5i.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent5i.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent5i.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                 
                   <div className="aa-product-hvr-content">
-                   <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                   <Link to="/Detail/canopies/tent5i.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent5i.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent5i.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent6.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent6.jpg"><img src="img/canopies/tent6.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent6.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent6.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent6.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent6.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent6.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent7i.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent7i.jpg"><img src="img/canopies/tent7i.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent7i.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent7i.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                   <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent7i.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent7i.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                   <Link to="/Detail/canopies/tent7i.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                   {/* product badge */}
                   <span className="aa-badge aa-sale" to="#">SALE!</span>
@@ -179,18 +179,18 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent8.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent8.jpg"><img src="img/canopies/tent8.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent8.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent8.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent8.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent8.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent8.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                   {/* product badge */}
                    <span className="aa-badge aa-sold-out" to="#">Sold Out!</span>
@@ -198,18 +198,18 @@ const Canopies = () => {
                  {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent9.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent9.jpg"><img src="img/canopies/tent9.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent9.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent9.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>                            
+                    <Link to="/Detail/canopies/tent9.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent9.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent9.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>                            
                   </div>
                   {/* product badge */}
                   <span className="aa-badge aa-sale" to="#">SALE!</span>
@@ -217,18 +217,18 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent10.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent10.jpg"><img src="img/canopies/tent10.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent10.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent10.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent10.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent10.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent10.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                   {/* product badge */}
                    <span className="aa-badge aa-sold-out" to="#">Sold Out!</span>
@@ -236,35 +236,35 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent11.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent11.jpg"><img src="img/canopies/tent11.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent11.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent11.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                         
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent11.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent11.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent11.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent12.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent12.jpg"><img src="img/canopies/tent12.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent12.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent12.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent12.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent12.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent12.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                   {/* product badge */}
                   <span className="aa-badge aa-hot" to="#">HOT!</span>
@@ -272,148 +272,148 @@ const Canopies = () => {
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent13.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent13.jpg"><img src="img/canopies/tent13.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent13.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent13.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>
                  
                   <div className="aa-product-hvr-content">
-                   <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                   <Link to="/Detail/canopies/tent13.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent13.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent13.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>
                 {/* start single product item */}
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent14.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent14.jpg"><img src="img/canopies/tent14.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent14.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent14.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent14.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent14.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent14.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent15.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent15.jpg"><img src="img/canopies/tent15.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent15.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent15.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent15.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent15.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent15.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>  
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent16.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent16.jpg"><img src="img/canopies/tent16.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent16.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent16.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent16.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent16.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent16.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent17.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent17.jpg"><img src="img/canopies/tent17.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent17.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent17.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent17.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent17.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent17.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>   
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent18.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent18.jpg"><img src="img/canopies/tent18.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent18.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent18.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent18.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent18.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent18.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>   
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent22.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent22.jpg"><img src="img/canopies/tent22.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent22.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent22.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent22.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent22.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent22.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>   
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent20.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent20.jpg"><img src="img/canopies/tent20.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent20.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent20.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent20.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent20.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent20.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>   
                 <li>
                   <figure>
-                    <Link className="aa-product-img" to="#"><img src="img/canopies/tent21.jpg" alt="polo shirt img" /></Link>
-                    <Link className="aa-add-card-btn"to="#"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                    <Link className="aa-product-img" to="/Detail/canopies/tent21.jpg"><img src="img/canopies/tent21.jpg" alt="polo shirt img" /></Link>
+                    <Link className="aa-add-card-btn"to="/Detail/canopies/tent21.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                     <figcaption>
-                      <h4 className="aa-product-title"><Link to="#">Tent</Link></h4>
+                      <h4 className="aa-product-title"><Link to="/Detail/canopies/tent21.jpg">Tent</Link></h4>
                       <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                       <p className="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                     </figcaption>
                   </figure>                          
                   <div className="aa-product-hvr-content">
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                    <Link to="#" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                    <Link to="#" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                    <Link to="/Detail/canopies/tent21.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                    <Link to="/Detail/canopies/tent21.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                    <Link to="/Detail/canopies/tent21.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                   </div>
                 </li>                                               
               </ul>
@@ -501,23 +501,23 @@ const Canopies = () => {
               <div className="aa-recently-views">
                 <ul>
                   <li>
-                    <Link to="#" className="aa-cartbox-img"><img alt="img" src="img/toprated1.jpg" /></Link>
+                    <Link to="/Detail/canopies/tent12.jpg" className="aa-cartbox-img"><img alt="img" src="img/toprated1.jpg" /></Link>
                     <div className="aa-cartbox-info">
-                      <h4><Link to="#">Tent</Link></h4>
+                      <h4><Link to="/Detail/canopies/tent12.jpg">Tent</Link></h4>
                       <p>1 x $$.$$</p>
                     </div>                    
                   </li>
                   <li>
-                    <Link to="#" className="aa-cartbox-img"><img alt="img" src="img/toprated2.jpg" /></Link>
+                    <Link to="/Detail/musicalset/speakers1.jpg" className="aa-cartbox-img"><img alt="img" src="img/toprated2.jpg" /></Link>
                     <div className="aa-cartbox-info">
-                      <h4><Link to="#">Speaker</Link></h4>
+                      <h4><Link to="/Detail/musicalset/speakers1.jp">Speaker</Link></h4>
                       <p>1 x $$.$$</p>
                     </div>                    
                   </li>
                    <li>
-                    <Link to="#" className="aa-cartbox-img"><img alt="img" src="img/toprated3.jpg" /></Link>
+                    <Link to="/Detail/generators/generator1.jpg" className="aa-cartbox-img"><img alt="img" src="img/toprated3.jpg" /></Link>
                     <div className="aa-cartbox-info">
-                      <h4><Link to="#">Generator</Link></h4>
+                      <h4><Link to="/Detail/generators/generator1.jpg">Generator</Link></h4>
                       <p>1 x $$.$$</p>
                     </div>                    
                   </li>                                      
