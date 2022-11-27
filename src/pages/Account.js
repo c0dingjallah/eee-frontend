@@ -61,6 +61,8 @@ const Dashboard = () => {
 
         await login(lemailornum, lpassword)
 
+        console.log("l error")
+        console.log(lerror)
         if (lerror !== null) {
           setDisplay(false)
           setOerror(lerror)
