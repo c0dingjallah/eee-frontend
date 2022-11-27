@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useOrdersContext } from '../hooks/useOrdersContext'
 import { useAuthContext } from "../hooks/useAuthContext"
 import { useEffect }from 'react'
+import dateFormat, { masks } from "dateformat";
 
 
 const Dashboard = () => {
@@ -127,7 +128,7 @@ const Dashboard = () => {
                       <td><img src={`img/${order.itemname}/${order.image}`} style={{maxWidth: 100}} /></td>
                       <td><span className="label label-success">{order.itemname}</span></td>
                       <td><span className="label label-warning">{order.price}</span></td>
-                      <td><span className="label label-primary">{order.date}</span></td>
+                      <td><span className="label label-primary">{dateFormat(order.date,"fullDate")}</span></td>
                       <td><span className="label label-danger">{order.time}</span></td>
                       <td>{order.contact}</td>
                     </tr>

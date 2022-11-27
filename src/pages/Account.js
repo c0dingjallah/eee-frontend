@@ -10,6 +10,7 @@ const Dashboard = () => {
   const { user } = useAuthContext()
  
   const navigate = useNavigate();
+   const [display, setDisplay] = useState(false);
   // const [name, setName] = useState('');
   // const [emailornum, setEmailornum] = useState('');
   // const [password, setPassword] = useState('');
@@ -28,7 +29,7 @@ const Dashboard = () => {
       
     const handleSubmit = async (e) => {
         e.preventDefault();
-       
+        setDisplay(true)
         await signup(sname, semailornum, spassword)
         //await delay(000);
         
@@ -44,7 +45,7 @@ const Dashboard = () => {
               setSemailornum('')
               setSpassword('')
               setOerror(null)
-               
+              setDisplay(false)
               alert("signup successful")
               }
                        
@@ -52,11 +53,15 @@ const Dashboard = () => {
 
       const handleLogin = async (e) => {
         e.preventDefault();
-      
+
+        if(lemailornum !== "" && lpassword !== "" ){
+        setDisplay(true)
+        }
 
         await login(lemailornum, lpassword)
 
         if (lerror !== null) {
+          setDisplay(false)
           setOerror(error)
          console.log(oerror)
 
@@ -64,6 +69,7 @@ const Dashboard = () => {
 
           setLemailornum('')
           setLpassword('')
+          setDisplay(false)
           return(
             navigate('/', { replace: true })
             )
@@ -73,7 +79,14 @@ const Dashboard = () => {
  
   return (
     <>
-     {/* catg header banner section */}
+        {/* wpf loader Two */} 
+   {display && <div id="wpf-loader-two" >          
+      <div className="wpf-loader-two-inner">
+        <span>Loading</span>
+      </div>
+    </div> }
+    {/* / wpf loader Two */} 
+     {/* catg header banner section
   <section id="aa-catg-head-banner">
     <img src="img/fashion/fashion-header-bg-8.jpg" alt="fashion img" />
     <div className="aa-catg-head-banner-area">

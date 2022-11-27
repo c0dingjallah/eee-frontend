@@ -3,6 +3,7 @@ import { useOrdersContext } from '../hooks/useOrdersContext'
 import { useEffect }from 'react'
 import { useAdminContext } from '../hooks/useAdminContext'
 import { useAdminLogout } from '../hooks/useAdminLogout'
+import dateFormat, { masks } from "dateformat";
 
 
 const Reservations = () => {
@@ -151,8 +152,8 @@ const Reservations = () => {
                       <td><img src={`img/${order.itemname}/${order.image}`} style={{maxWidth: 100}} /></td>
                       <td><span className="label label-success">{order.itemname}</span></td>
                       <td><span className="label label-warning">{order.price}</span></td>
-                      <td><span className="label label-primary">{order.date}</span></td>
-                      <td><span className="label label-danger">{order.time}</span></td>
+                      <td><span className="label label-primary">{dateFormat(order.date,"fullDate")}</span></td>
+                      <td><span className="label label-danger">{order.time}day/days</span></td>
                       <td>{order.contact}</td>
                     </tr>
                     ))}
