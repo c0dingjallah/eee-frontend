@@ -66,10 +66,6 @@ const Dashboard = () => {
         console.log(localStorage)
         if (localStorage.getItem("lerror") !== "null") {
           setDisplay(false)
-          setOerror(lerror)
-          console.log("ran 1")
-         console.log(oerror)
-         alert(oerror)
          localStorage.setItem('lerror', null)
         }else{
 

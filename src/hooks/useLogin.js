@@ -19,11 +19,11 @@ export const useLogin = () => {
 
     if (!response.ok) {
       setLisloading(false)
-      console.log("error set")
+      
       setLerror(json.error)
       localStorage.setItem('lerror', JSON.stringify(json.error))
 
-      console.log(json.error)
+      // console.log(json.error)
     }
     if (response.ok) {
       // save the user to local storage
