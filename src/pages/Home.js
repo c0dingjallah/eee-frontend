@@ -474,17 +474,17 @@ const Home = () => {
                         {/* start single product item */}
                         <li>
                           <figure>
-                            <Link className="aa-product-img" to="Detail/barrels/barrel2.jpg"><img src="img/barrels/barrel2.jpg" alt="polo shirt img" /></Link>
-                            <Link className="aa-add-card-btn"to="Detail/barrels/barrel2.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
+                            <Link className="aa-product-img" to="Detail/barrels/barrel3.jpg"><img src="img/barrels/barrel3.jpg" alt="polo shirt img" /></Link>
+                            <Link className="aa-add-card-btn"to="Detail/barrels/barrel3.jpg"><span className="fa fa-shopping-cart"></span>Rent Now</Link>
                             <figcaption>
-                              <h4 className="aa-product-title"><Link to="Detail/barrels/barrel2.jpg">Barrel</Link></h4>
+                              <h4 className="aa-product-title"><Link to="Detail/barrels/barrel3.jpg">Barrel</Link></h4>
                               <span className="aa-product-price">$$.$$</span><span className="aa-product-price"><del>$$.$$</del></span>
                             </figcaption>
                           </figure>                          
                           <div className="aa-product-hvr-content">
-                            <Link to="Detail/barrels/barrel2.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
-                            <Link to="Detail/barrels/barrel2.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
-                            <Link to="Detail/barrels/barrel2.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
+                            <Link to="Detail/barrels/barrel3.jpg" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span className="fa fa-heart-o"></span></Link>
+                            <Link to="Detail/barrels/barrel3.jpg" data-toggle="tooltip" data-placement="top" title="Compare"><span className="fa fa-exchange"></span></Link>
+                            <Link to="Detail/barrels/barrel3.jpg" data-toggle2="tooltip" data-placement="top" title="Quick View" data-toggle="modal" data-target="#quick-view-modal"><span className="fa fa-search"></span></Link>
                           </div>
                         </li>
                        
