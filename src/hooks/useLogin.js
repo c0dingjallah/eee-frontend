@@ -21,6 +21,7 @@ export const useLogin = () => {
       setLisloading(false)
       console.log("error set")
       setLerror(json.error)
+      localStorage.setItem('lerror', JSON.stringify(json.error))
 
       console.log(json.error)
     }
