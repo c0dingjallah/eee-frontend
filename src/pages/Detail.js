@@ -212,7 +212,7 @@ const Detail = () => {
                         <div className="media">
                           <div className="media-left">
                             <a href="#">
-                              <img className="media-object" src="/img/testimonial-img-3.jpg" alt="girl image" />
+                              <img className="media-object" src="/img/testimonial-img-3.jpg" style={{maxWidth: 50}} alt="girl image" />
                             </a>
                           </div>
                           <div className="media-body">
@@ -232,7 +232,7 @@ const Detail = () => {
                         <div className="media">
                           <div className="media-left">
                             <a href="#">
-                              <img className="media-object" src="/img/testimonial-img-2.jpg" alt="girl image" />
+                              <img className="media-object" style={{maxWidth: 50}} src="/img/testimonial-img-2.jpg" alt="girl image" />
                             </a>
                           </div>
                           <div className="media-body">
