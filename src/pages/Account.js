@@ -64,10 +64,12 @@ const Dashboard = () => {
         if (lerror !== null) {
           setDisplay(false)
           setOerror(lerror)
+          console.log("ran 1")
          console.log(oerror)
 
         }else{
 
+          console.log("ran 2")
           setLemailornum('')
           setLpassword('')
           setDisplay(false)
